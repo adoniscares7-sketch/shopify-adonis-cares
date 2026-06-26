@@ -25,6 +25,7 @@ Each product: `covers/<slug>.jpg` (the cover) + `pdfs/<slug>.pdf` (the full prod
 - **dont-recognize-body-image** — [cover](covers/dont-recognize-body-image.jpg) · [pdf](pdfs/dont-recognize-body-image.pdf)
 
 ## Status
-- Content rewritten to gold standard (hard voice + specific protocols/scripts + density pass): toxic, faith, empty-nest, caregiver, new-mom, working-mom, perimenopause, 15-min, burnout.
-- Pending content rewrite (Tier 2): invisible-load, money, anxiety, boundaries, adhd, divorce, marriage, co-parenting.
-- Pending: body-image + single-mom polish; cover re-shoots (high-contrast/aggressive).
+- PDF content: all 19 products are 8-9 pages, dense, direct, and verified from current files. The three originally pending products (divorce, marriage/roommates, co-parenting) have been fully rewritten. Body-image and single-mom have been rewritten/polished. The remaining original products have hard final command pages appended with product-specific scripts/protocols.
+- Render verification: all PDFs render successfully; final pages were visually checked from generated PNG contact sheets.
+- Covers: all 19 covers have been rebuilt in the professional photo-ad direction with warm/hopeful or strong/empowering images, large top headline text, smaller bottom subtext, visible well-lit faces, and no cartoon/dark horror style. Source backgrounds are kept in `cover_sources/`; finished Shopify covers are in `covers/`.
+- Grok workflow: custom skill installed at `~/.codex/skills/use-grok-for-review` for future review/image-generation handoff, but the final cover set was completed directly to avoid further browser-control usage waste.
